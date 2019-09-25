@@ -81,6 +81,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.GISF'),
+        #'ENGINE': 'django.db.backends.mysql',
+       # 'NAME':'narendra',
+        #'USER':'root',
+       # 'PASSWORD':'root'
     }
 }
 

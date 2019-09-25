@@ -1,8 +1,8 @@
 from django.shortcuts import render, get_object_or_404
 from django.forms import modelformset_factory
 from django.contrib import admin, messages
-from .forms import AgentCreateForm, AgentCommisionForm, ProductsMasterForm, ProductRiskForm, \
-    VehicleMasterForm,VehicleDepriciatinoForm,XxgenNcbMasterForm,ClaimStatusMasterForm,ClaimsSurveyorMasterForm
+from .forms import (AgentCreateForm, AgentCommisionForm, ProductsMasterForm, ProductRiskForm,
+    VehicleMasterForm,VehicleDepriciatinoForm,XxgenNcbMasterForm,ClaimStatusMasterForm,ClaimsSurveyorMasterForm)
 from .models import Xxgen_agent_Prod_Comm_Master, XxgenProductRiskMaster, XxgenVehicleMaster, XxgenClaimStatusMaster
 from django.views.generic import (ListView, DetailView, CreateView,UpdateView)
 # Create your views here.
